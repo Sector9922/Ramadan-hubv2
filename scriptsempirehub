@@ -1,18 +1,30 @@
---[[  _____                           _             
- |  __ \                         | |            
- | |__) |__ _ _ __ ___   __ _  __| | __ _ _ __  
- |  _  // _` | '_ ` _ \ / _` |/ _` |/ _` | '_ \ 
- | | \ \ (_| | | | | | | (_| | (_| | (_| | | | |
- |_|  \_\__,_|_| |_| |_|\__,_|\__,_|\__,_|_| |_|
- | |  | |     | |                               
- | |__| |_   _| |__                             
- |  __  | | | | '_ \                            
- | |  | | |_| | |_) |                           
- |_|  |_|\__,_|_.__/                            
+--[[ 
+ _____           _       _       
+/  ___|         (_)     | |      
+\ `--.  ___ _ __ _ _ __ | |_ ___ 
+ `--. \/ __| '__| | '_ \| __/ __|
+/\__/ / (__| |  | | |_) | |_\__ \
+\____/ \___|_|  |_| .__/ \__|___/
+                  | |            
+                  |_|            
+ _____                _          
+|  ___|              (_)         
+| |__ _ __ ___  _ __  _ _ __ ___ 
+|  __| '_ ` _ \| '_ \| | '__/ _ \
+| |__| | | | | | |_) | | | |  __/
+\____/_| |_| |_| .__/|_|_|  \___|
+               | |               
+               |_|               
+ _   _       _                   
+| | | |     | |                  
+| |_| |_   _| |__                
+|  _  | | | | '_ \               
+| | | | |_| | |_) |              
+\_| |_/\__,_|_.__/                                        
 ]]                                               
                                      
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Ramadan Hub v2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Scripts empire hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
